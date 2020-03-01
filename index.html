@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="home" class="open-left">
+        <div id="offcanvas-left" class="hide">
+            <ul>
+                <li><a href="#Introduction" >Introduction </a></li>
+                <li><a href="#Functionality" >Functionality </a></li>
+                <li><a href="#Slogan" >Slogan </a></li>
+                <li><a href="#Tables" >Keywords</a></li>
+                <li><a href="gallery.html">The onion gallery</a></li>
+                <li><a href="Page_2.html">Tu<strong><b>TOR</b></strong>ial (Page 2)</a></li>
+            </ul>
+        </div>
+        <div class="togglebar">
+            <!-- adds the class of hide to .offcanvas.left -->
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="center">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#Introduction" >Introduction </a></li>
+                        <li><a href="#Functionality" >Functionality </a></li>
+                        <li><a href="#Slogan" >Slogan </a></li>
+                        <li><a href="#Tables" >Keywords and Definitions </a></li>
+                        <li><a href="gallery.html">The onion gallery</a></li>
+                        <li><a href="Page_2.html">Tu<i>TOR</i>ial (Page 2)</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <main id="Introduction"> 
+                    <article>
+                        <figure class="hero">
+                            <img src="https://i0.wp.com/unaaldia.hispasec.com/wp-content/uploads/2019/10/Tor.jpg?resize=680%2C382&ssl=1"
+                            width="50" height="650" alt="Tor Browser"/>
+                            <figcaption>
+                                <h1>The Tor Project</h1>
+                            </figcaption>
+                        </figure>
+                        <h style="font-size: 2em">What is Tor?</h>
+                        <hr>
+                        <p>
+                            Before proceeding, it is crucial to recognise the difference between <strong>Anonymity</strong> and <strong>Pseudonymity. </strong><i>TOR</i> (Previously referred as "The Onion Router".) is a free and an open-source software enabling <strong>Anonymous</strong> network communcations. This can be differentiated from our typical web browers as only our IP address and DNS requests are protected, providing such limited protection when using normal browsers. However <i>Onion routing</i> is implemented by encryption in the application layer of a communication protocol stack, nested like the layers of an onion. 
+                        </p>
+                        <p2> Tor encrypts the data, including the next node destination IP address, multiple times and sends it through a virtual circuit comprising successive, random-selection Tor relays. <br>Each relay decrypts a layer of encryption to reveal the next relay in the circuit to pass the remaining encrypted data on to it. <br>The final relay decrypts the innermost layer of encryption and sends the original data to its destination without revealing or knowing the source IP address. 
+                            Because the routing of the communication was partly concealed at every hop in the Tor circuit, this method eliminates any single point at which the communicating peers can be determined through network surveillance that relies upon knowing its source and destination.
+                        <br> <strong>Essentially, Onion Routing in a nutshell directs internet traffic through many nodes where each relay is able to simultaneously decrypt a layer of encryption and encrypt the message which only the next relay could decrypt a layer of.
+                            this process is repeated until the message reaches it's final destination and the response returns to the user. </strong>
+                        </p2> 
+                        
+                      
+                        <p3 style="line-height:50px;">   
+                        The video below explains the fundamentals of <i>Tor</i>.
+                        </p3>     
+                        
+                        <p4 style="line-height:50px;">
+                       
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QRYzre4bf7I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </p4>
+                       
+                        <h2 main id="Functionality"; style="font-size: 2em"> Functionality </h2>
+                        <hr>
+                        <p5> The <i>Tor</i> software package is preinstalled with many functionalities as well as supporting many features of what modern browsers are supporting.
+                           <br> (The software package, <i>Tor</i> bundle is available at the <a href="https://www.torproject.org/download/">download section</a> of the official page. (<i>Tor</i> supports many platforms including: Windows, Mac OS, Linux, and Android.)
+                            <br> <br> The following list are some of <i>Tor's</i> functionalities
+                    
+                            <ul>
+                             <li>Different options to connect to <i>Tor</i> (as of configuring a proxy or bridge)</li>
+                             <li>Default search engline powered by DuckDuckGo</li>
+                             <li>Optional Security configurations (such as enabling & disabling Javascript, Cookies, and other scripts in general.) </lI>
+                             <li>Add ons and default extensions (Noscript and Https-Everywhere as an example.)</li>
+                             <li>Identity shift features(Changes your <i>Tor</i> identity and and connects to another node)
+                            </ol>
+                        </p5>
+                           
+                         <div id="Slogan">
+                            <blockquote cite="http://twitter.com">
+                            "Explore Freely, Browse <em>Privately</em>"
+                        </blockquote>
+                        </div>
+                      
+                        <div class="Tor">
+                            <img class="Tor1" src="20200218_030439.png">
+                
+                            <img class="Tor1" src="20200218_030730.png">
+                            
+                            <img class="Tor1" src="20200218_030543.png">
+
+                            <img class="Tor1" src="20200218_030639.png"
+                        </div>
+
+
+                        <!-- Tables-->
+                        <h3 main id="Tables"; style="font-size: 2em"> Keywords and Definitions </h2>
+                        <table class="styled">
+                            <colgroup>
+                                <col style="background-color: white;">
+                            </colgroup>
+                            <colgroup>
+                                <col style="background-color: #f4e767;" span="2">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>Keywords</th>
+                                    <th>Definition</th>
+                                    <th>Source</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Anonymity</td>
+                                    <td>The conditions of not being able to be identified or specified</td>
+                                    <td>Oxford's Dictionary</td>
+                                </tr>
+                                <tr>
+                                    <td>Pseudonymity</td>
+                                    <td>A word derived from pseudonym, meaning "False name.", a state of disguised identity.</td>
+                                    <td>Oxford's Dictionary</td>
+                                </tr>
+                                <tr>
+                                    <td>Encryption</td>
+                                    <td>The process of encoding a message or information in such a way that only authorized parties can access it and those who are not authorized cannot.</td>
+                                    <td>Wikipedia, The Free Encyclopedia.</td>
+                                </tr>
+                                <tr>
+                                    <td>Nodes/Relays</td>
+                                    <td>Broad class of network topology commonly used in wireless networks, where the source and destination are interconnected by means of some nodes.</td>
+                                    <td>Eff.Org</td>
+                                </tr>
+                                <tr>
+                                    <td>Protocols</td>
+                                    <td>Set of laws or procedures for transmitting data between one device to another.</td>
+                                    <td>Britannica</td>
+                                </tr>
+                                <tr>
+                                    <td>Proxy (Application-Level gateaway)</td>
+                                    <td>A server application or appliance that acts as an intermediary for requests from clients seeking resources from servers that provide those resources.</td>
+                                    <td>IU Knowledge Base</td>
+                                </tr>
+                                <tr>
+                                    <td>Bridge</td>
+                                    <td> a computer networking device that creates a single aggregate network from multiple communication networks or network segments.</td>
+                                    <td>Wikipedia, The Free Encyclopedia.</td>
+                                </tr>
+                                        
+                                </tbody>
+                        </table>
+                    </article>
+                </main>
+                <footer>
+                    <section>
+                        <table class="styled">
+                            <tr>
+                                <th colspan="2">Website address</th>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.torproject.org/">The official page</a> </td>
+                                <td>Always online wth Https </td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.torproject.org/download/">The download section of the official page</td>
+                                <td>Always online with Https</td>
+                            </tr>
+                        </table>
+                        <table class="styled">
+                            <tr>
+                                <th colspan="2">Contact Info</th>
+                            </tr>
+                            <tr>
+                                <td>Address:</td>
+                                <td>The Tor Project
+                                    217 1st Ave South #4903
+                                    Seattle, WA 98194 USA
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td><a href="mailto:frontdesk@torproject.org">The Tor Email</a>.<br></td>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2690.330578586011!2d-122.33662008436976!3d47.600261379184275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906aa53b3977a9%3A0x111176c83564c3f8!2s217%201st%20Ave%20S%20%234903%2C%20Seattle%2C%20WA%2098104%2C%20USA!5e0!3m2!1sen!2sth!4v1581982333436!5m2!1sen!2sth" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            </tr>
+                        </table>
+                    </section>
+                    <section>
+                        <form action="/action_page.php">
+                            <legend><b>Contact the webpage creator</b></legend>
+                            <input type="text" name="fullname" placeholder="Full name">
+                            <input type="text" name="email" placeholder="Email">
+                            <textarea name="msg" placeholder="Send a message or a feeback!"></textarea>
+                            <input type="submit" value="Submit">
+                            <!-- https://www.w3schools.com/tags/tag_form.asp -->
+                        </form>
+                    </section>
+                </footer>
+            </section>          
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
+
